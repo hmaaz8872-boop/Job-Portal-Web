@@ -1,0 +1,398 @@
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #142b4c;
+}
+
+/* Main Container */
+.login-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Left Section */
+.left-section {
+    width: 50%;
+    padding: 40px 6%;
+    background-color: #eaf4ff;
+}
+
+/* Logo */
+.logo {
+    font-size: 38px;
+    color: #0066ff;
+    margin-bottom: 5px;
+}
+
+/* Logo Text */
+.logo-text {
+    font-size: 14px;
+    margin-bottom: 55px;
+}
+
+/* Welcome Heading */
+.left-section h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+/* Welcome Description */
+.welcome-text {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #47627d;
+    margin-bottom: 30px;
+}
+
+/* Feature Box */
+.feature {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 4px solid #0066ff;
+}
+
+/* Feature Heading */
+.feature h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Feature Paragraph */
+.feature p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #47627d;
+}
+
+/* Image Box */
+.image-box {
+    margin-top: 30px;
+}
+
+/* Image */
+.image-box img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Right Section */
+.right-section {
+    width: 50%;
+    padding: 100px 6%;
+    background-color: #ffffff;
+}
+
+/* Login Heading */
+.right-section h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 15px;
+    color: #647995;
+    margin-bottom: 35px;
+}
+
+/* Input Box */
+.input-box {
+    margin-bottom: 22px;
+}
+
+/* Input Labels */
+.input-box label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Input Fields */
+.input-box input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #cbd9ed;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+/* Input Focus */
+.input-box input:focus {
+    border-color: #0066ff;
+}
+
+/* Form Options */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+    font-size: 14px;
+}
+
+/* Remember Me */
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+/* Forgot Password */
+.forgot {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+/* Login Button */
+.login-button {
+    width: 100%;
+    padding: 16px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Login Button Hover */
+.login-button:hover {
+    background-color: #004dcc;
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0;
+    color: #647995;
+}
+
+/* Divider Lines */
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #cbd9ed;
+}
+
+/* Social Buttons */
+.social-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* Social Button */
+.social-button {
+    flex: 1;
+    padding: 14px;
+    background-color: white;
+    border: 1px solid #cbd9ed;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Social Button Hover */
+.social-button:hover {
+    background-color: #eaf4ff;
+}
+
+/* Signup Text */
+.signup-text {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 14px;
+    color: #647995;
+}
+
+/* Signup Link */
+.signup-text a {
+    color: #0066ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* Back Link */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: #0066ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* ================================= */
+/* TABLET RESPONSIVE DESIGN */
+/* ================================= */
+
+@media only screen and (max-width: 1024px) {
+
+    /* Left Section */
+    .left-section {
+        padding: 35px 4%;
+    }
+
+    /* Right Section */
+    .right-section {
+        padding: 70px 4%;
+    }
+
+    /* Welcome Heading */
+    .left-section h2 {
+        font-size: 32px;
+    }
+
+    /* Login Heading */
+    .right-section h2 {
+        font-size: 26px;
+    }
+
+    /* Feature Image */
+    .image-box img {
+        height: 220px;
+    }
+
+}
+
+
+/* ================================= */
+/* MOBILE RESPONSIVE DESIGN */
+/* ================================= */
+
+@media only screen and (max-width: 768px) {
+
+    /* Main Container */
+    .login-container {
+        flex-direction: column;
+    }
+
+    /* Left Section */
+    .left-section {
+        width: 100%;
+        padding: 35px 6%;
+    }
+
+    /* Right Section */
+    .right-section {
+        width: 100%;
+        padding: 40px 6%;
+    }
+
+    /* Logo */
+    .logo {
+        font-size: 32px;
+    }
+
+    /* Logo Text */
+    .logo-text {
+        margin-bottom: 30px;
+    }
+
+    /* Welcome Heading */
+    .left-section h2 {
+        font-size: 30px;
+    }
+
+    /* Welcome Text */
+    .welcome-text {
+        font-size: 15px;
+    }
+
+    /* Login Heading */
+    .right-section h2 {
+        font-size: 25px;
+    }
+
+    /* Feature Image */
+    .image-box img {
+        height: 250px;
+    }
+
+}
+
+
+/* ================================= */
+/* SMALL MOBILE RESPONSIVE DESIGN */
+/* ================================= */
+
+@media only screen and (max-width: 480px) {
+
+    /* Left Section */
+    .left-section {
+        padding: 25px 20px;
+    }
+
+    /* Right Section */
+    .right-section {
+        padding: 30px 20px;
+    }
+
+    /* Welcome Heading */
+    .left-section h2 {
+        font-size: 27px;
+    }
+
+    /* Login Heading */
+    .right-section h2 {
+        font-size: 23px;
+    }
+
+    /* Subtitle */
+    .subtitle {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Input Fields */
+    .input-box input {
+        width: 100%;
+        padding: 13px;
+    }
+
+    /* Form Options */
+    .form-options {
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 12px;
+    }
+
+    /* Login Button */
+    .login-button {
+        padding: 14px;
+    }
+
+    /* Social Buttons */
+    .social-buttons {
+        flex-direction: column;
+    }
+
+    /* Social Button */
+    .social-button {
+        width: 100%;
+        padding: 13px;
+    }
+
+    /* Feature Image */
+    .image-box img {
+        height: 200px;
+    }
+
+}

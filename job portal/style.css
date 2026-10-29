@@ -1,0 +1,583 @@
+nav{
+    display: flex;
+    gap: 50px;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+.logo{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.logo span{
+    color: white;
+}
+
+a{
+    color: white;
+    font-style: italic;
+}
+
+a:hover{
+    color: green;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button a{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    gap: 0px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: red;
+    color: black;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    padding: 50px 7%;
+    background-color: #eaf4ff;
+}
+
+/* Left Side Content */
+.hero-content {
+    width: 50%;
+}
+
+/* Small Heading */
+.small-heading {
+    color: #0066ff;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* Main Heading */
+.hero-content h1 {
+    color: #142b4c;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+/* Heading Today Color */
+.hero-content h1 span {
+    color: #0066ff;
+    display: block;
+}
+
+/* Description */
+.description {
+    color: #47627d;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #dce6f2;
+}
+
+/* Input Field */
+.search-box input {
+    flex: 1;
+    min-width: 0;
+
+    padding: 14px;
+    border: none;
+    outline: none;
+
+    font-size: 14px;
+}
+
+/* Search Button */
+.search-box button {
+    padding: 14px 20px;
+
+    background-color: #0066ff;
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/* Button Hover */
+.search-box button:hover {
+    background-color: #004dcc;
+}
+
+/* Right Side Image */
+.hero-image {
+    width: 50%;
+}
+
+/* Image Styling */
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    border-radius: 10px;
+}
+
+
+
+h1{
+    text-align: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-display: initial;
+    font-size: 50px;
+}
+
+#jobs{
+    gap: 20px;
+}
+
+.card-1{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 10px;
+}
+
+.card-1 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-1 button:hover{
+    background-color: red;
+}
+
+.card-2{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-2 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-2 button:hover{
+    background-color: red;
+}
+
+.card-3{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-3 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-3 button:hover{
+    background-color: red;
+}
+
+.card-4{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-4 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-4 button:hover{
+    background-color: red;
+}
+
+.card-5{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-5 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-5 button:hover{
+    background-color: red;
+}
+
+.card-6{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-6 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-6 button:hover{
+    background-color: red;
+}
+
+.card-7{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-7 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-7 button:hover{
+    background-color: red;
+}
+
+.card-8{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-8 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-8 button:hover{
+    background-color: red;
+}
+
+.card-9{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-9 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-9 button:hover{
+    background-color: red;
+}
+
+.card-10{
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-10 button{
+    color: white;
+    margin-bottom: 5px;
+    background-color: #0066ff;
+    padding: 3px;
+}
+
+.card-10 button:hover{
+    background-color: red;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #142b4c;
+    color: white;
+    padding: 40px 7% 0;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+/* Footer Boxes */
+.footer-box {
+    width: 20%;
+}
+
+/* Website Name */
+.footer-box h2 {
+    color: #4d91ff;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* Footer Headings */
+.footer-box h3 {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+/* Footer Paragraphs */
+.footer-box p {
+    color: #c5d2e5;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+/* Remove List Bullets */
+.footer-box ul {
+    list-style: none;
+}
+
+/* Footer List Items */
+.footer-box ul li {
+    margin-bottom: 12px;
+}
+
+/* Footer Links */
+.footer-box ul li a {
+    color: #c5d2e5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Footer Link Hover */
+.footer-box ul li a:hover {
+    color: #4d91ff;
+}
+
+/* Copyright Section */
+.footer-bottom {
+    border-top: 1px solid #344966;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Copyright Text */
+.footer-bottom p {
+    color: #c5d2e5;
+    font-size: 14px;
+}
+
+/* ================================= */
+/* TABLET RESPONSIVE DESIGN */
+/* ================================= */
+
+@media only screen and (max-width: 1024px) {
+
+    /* Hero Section */
+    .hero {
+        padding: 40px 4%;
+        gap: 25px;
+    }
+
+    /* Hero Heading */
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    /* Hero Description */
+    .description {
+        font-size: 15px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 35px 4% 0;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer-box {
+        width: 28%;
+    }
+
+}
+
+
+/* ================================= */
+/* MOBILE RESPONSIVE DESIGN */
+/* ================================= */
+
+@media only screen and (max-width: 768px) {
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        padding: 30px 5%;
+        gap: 25px;
+    }
+
+    /* Hero Content */
+    .hero-content {
+        width: 100%;
+    }
+
+    /* Hero Heading */
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    /* Hero Description */
+    .description {
+        font-size: 15px;
+    }
+
+    /* Hero Image */
+    .hero-image {
+        width: 100%;
+    }
+
+    /* Search Form */
+    .search-box {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .footer-box {
+        width: 45%;
+    }
+
+}
+
+
+/* ================================= */
+/* SMALL MOBILE RESPONSIVE DESIGN */
+/* ================================= */
+
+@media only screen and (max-width: 480px) {
+
+    /* Hero Section */
+    .hero {
+        padding: 25px 15px;
+    }
+
+    /* Hero Heading */
+    .hero-content h1 {
+        font-size: 29px;
+    }
+
+    /* Small Heading */
+    .small-heading {
+        font-size: 13px;
+    }
+
+    /* Description */
+    .description {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Search Form */
+    .search-box {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+
+    /* Search Input */
+    .search-box input {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* Search Button */
+    .search-box button {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 30px 20px 0;
+    }
+
+    /* Footer Boxes */
+    .footer-box {
+        width: 100%;
+    }
+
+    /* Footer Headings */
+    .footer-box h2 {
+        font-size: 25px;
+    }
+
+    /* Footer Paragraphs */
+    .footer-box p {
+        font-size: 13px;
+    }
+
+    /* Footer Bottom */
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+}

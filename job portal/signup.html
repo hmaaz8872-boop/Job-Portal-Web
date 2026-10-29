@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up - JobHub</title>
+
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+
+    <div class="signup-container">
+
+        <!-- Left Section -->
+        <div class="left-section">
+
+            <h1 class="logo">JobHub</h1>
+
+            <p class="logo-text">Find Your Dream Job</p>
+
+            <h2>Join JobHub Today!</h2>
+
+            <p class="welcome-text">
+                Create your account and take the next step
+                towards your dream career.
+            </p>
+
+            <!-- Feature 1 -->
+            <div class="feature">
+
+                <h3>Find Your Dream Job</h3>
+
+                <p>
+                    Discover thousands of opportunities
+                    from top companies.
+                </p>
+
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature">
+
+                <h3>Connect With Companies</h3>
+
+                <p>
+                    Connect with employers and explore
+                    exciting career opportunities.
+                </p>
+
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature">
+
+                <h3>Build Your Future</h3>
+
+                <p>
+                    Create your profile and move
+                    forward in your professional career.
+                </p>
+
+            </div>
+
+            <!-- Image -->
+            <div class="image-box">
+
+                <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                    alt="Laptop on a desk"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+
+            <h2>Create Your Account</h2>
+
+            <p class="subtitle">
+                Fill in your details to get started.
+            </p>
+
+            <!-- Signup Form -->
+            <form action="index.html" method="get">
+
+                <!-- Full Name -->
+                <div class="input-box">
+
+                    <label for="fullname">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </div>
+
+                <!-- Email -->
+                <div class="input-box">
+
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+                <!-- Account Type -->
+                <div class="input-box">
+
+                    <label for="account-type">Account Type</label>
+
+                    <select
+                        id="account-type"
+                        name="account-type"
+                        required
+                    >
+
+                        <option value="">Select account type</option>
+
+                        <option value="job-seeker">
+                            Job Seeker
+                        </option>
+
+                        <option value="employer">
+                            Employer
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <!-- Password -->
+                <div class="input-box">
+
+                    <label for="password">Password</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Create a password"
+                        required
+                        minlength="8"
+                    >
+
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="input-box">
+
+                    <label for="confirm-password">
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                        placeholder="Enter password again"
+                        required
+                        minlength="8"
+                    >
+
+                </div>
+
+                <!-- Terms and Conditions -->
+                <div class="terms">
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            name="terms"
+                            required
+                        >
+
+                        I agree to the Terms and Conditions.
+
+                    </label>
+
+                </div>
+
+                <!-- Create Account Button -->
+                <button><a href="index.html"></a>
+                    Create Account
+                </button>
+
+            </form>
+
+            <!-- Login Link -->
+            <p class="login-text">
+
+                Already have an account?
+
+                <a href="login.html">Login</a>
+
+            </p>
+
+            <!-- Back to Home -->
+            <a href="index.html" class="back-link">
+                ← Back to Home
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
